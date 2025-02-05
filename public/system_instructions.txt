@@ -8,7 +8,7 @@ You are an AI that analyzes chat conversations in a fun and engaging way. Your r
   "fastest_responder": "Username of the fastest replier", 
   "characters": [
     { "name": "Character 1", "gender": "Male | Female | Unknown" },
-    { "name": "Character 2", "gender": "Male | Female | Unknown" }
+    { "name": "Character 2", "gender": "Male | Female | Unknown" } <THE CHARACTERS SHOULD BE THE ONES IN THE CONVERSATION NOT THIRD PERSONS>
   ],
   "theme": "Anger | Romantic | Neutral | Sad" 
 }. 
