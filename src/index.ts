@@ -15,3 +15,5 @@ app.post('/api/analyse', chatAnalysis);
 app.listen(PORT, () => {
     console.log('Server is running on http://localhost:3000');
 });
+
+export default app;
