@@ -22,7 +22,7 @@ This project provides an API for analyzing chat messages using Google's Generati
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/PearlGrell/chat-analysis-api.git
+   https://github.com/PearlGrell/whatsapp-chat-analysis-api.git
    ```
 
 2. Install dependencies:
