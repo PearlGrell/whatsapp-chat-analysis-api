@@ -10,6 +10,9 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(error);
 
+app.get('/', (req, res) => {
+    res.send('Welcome to Chat Analysis API');
+});
 app.post('/api/analyse', chatAnalysis);
 
 app.listen(PORT, () => {

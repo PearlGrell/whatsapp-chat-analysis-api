@@ -1,18 +1,20 @@
 {
   "name": "whatsapp-chat-analysis",
   "module": "index.ts",
-  "type": "module",
   "scripts": {
-    "test": "bun --hot /src/app.ts"
+    "test": "nodemon --exec ts-node src/server.ts",
+    "build": "tsc"
   },
   "dependencies": {
     "@google/generative-ai": "^0.21.0",
-    "axios": "^1.7.9",
     "dotenv": "^16.4.7",
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
   },
   "devDependencies": {
-    "@types/axios": "^0.14.4",
-    "@types/express": "^5.0.0"
+    "@types/express": "^5.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3",
+    "@types/node": "^22.10.6"
   }
 }
